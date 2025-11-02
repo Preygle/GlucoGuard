@@ -156,7 +156,7 @@ if submitted:
     else:
         try:
             genai.configure(api_key=gemini_api_key)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
 
             activity_level_str = "Sedentary" if activity_level_encoded == 0 else "Moderately Active" if activity_level_encoded == 1 else "Active"
 

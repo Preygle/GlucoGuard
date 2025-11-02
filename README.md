@@ -12,7 +12,7 @@ The deployed Streamlit application can be accessed here: [health-risk-prediction
 
 - **Chronic Disease Prediction:** Predicts the probability of developing Diabetes, Hypertension, and Heart Disease.
 - **Interactive UI:** A user-friendly web interface built with Streamlit to input health metrics.
-- **Personalized AI Suggestions:** Leverages the Gemini 1.5 Flash model to provide actionable advice on diet, exercise, and lifestyle based on the user's data.
+- **Personalized AI Suggestions:** Leverages the Gemini 2.5 Flash model to provide actionable advice on diet, exercise, and lifestyle based on the user's data.
 - **Dynamic Feature Engineering:** Calculates BMI and derives behavioral features in real-time from user inputs.
 - **Multiple Models:** Utilizes three distinct XGBoost classification models, one for each medical condition.
 
